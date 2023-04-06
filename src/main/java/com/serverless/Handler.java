@@ -1,12 +1,9 @@
 package com.serverless;
 
-import java.util.Collections;
 import java.util.Map;
 
-import com.google.gson.Gson;
 import com.serverless.core.dto.CodigoPromocionalDto;
 import com.serverless.core.entidade.ApiGatewayResponse;
-import com.serverless.core.entidade.Response;
 import com.serverless.outbound.CodigoPromocionalRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

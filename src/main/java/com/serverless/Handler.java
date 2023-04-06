@@ -20,7 +20,6 @@ public class Handler implements RequestHandler<Map<String, Object>, ApiGatewayRe
 
 	@Override
 	public ApiGatewayResponse handleRequest(Map<String, Object> input, Context context) {
-		String body = (String) input.get("body");
 
 		CodigoPromocionalRepository repository = new CodigoPromocionalRepository();
 		CodigoPromocionalDto codigoPromocional = repository.findByBin(input.get("bin").toString());

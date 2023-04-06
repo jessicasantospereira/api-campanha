@@ -1,7 +1,5 @@
 *.class
 target
-.idea/
-.serverless/
 /bin/
 /.settings/
 .project
